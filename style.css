@@ -1,0 +1,29 @@
+:root{
+  --clr-neon: #04d9ff;
+  --clr-bg: #000999;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppin',  sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--clr-bg);
+	color: var(--clr-neon);
+}
+
+neon-button{
+	font-size: 5rem;
+	text-decoration: none;
+	border: .1em solid var(--clr-neon);
+	color: var(--clr-neon);
+	padding: .25em;
+	border-radius: .2em;
+}
