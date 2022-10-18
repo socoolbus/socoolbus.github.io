@@ -48,7 +48,7 @@ $(document).ready(function() {
   -----------------------------------------------*/
   $(document).ready(function() {
       $("#team-carousel").owlCarousel({
-          items : 3,
+          items : 5,
           itemsDesktop : [1199,3],
           itemsDesktopSmall : [979,3],
           slideSpeed: 300,
