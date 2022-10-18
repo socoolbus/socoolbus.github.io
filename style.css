@@ -16,7 +16,6 @@ body{
 	justify-content: center;
 	align-items: center;
 	background: var(--clr-bg);
-	color: var(--clr-neon);
 }
 
 neon-button{
