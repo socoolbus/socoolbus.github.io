@@ -1,6 +1,6 @@
 :root{
-  --clr-neon: #fdb813;
-  --clr-bg: #000000;
+  --yellow: #fdb813;
+  --bg: #000000;
 }
 
 *{
@@ -15,18 +15,18 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: var(--clr-bg);
+	background: var(--yellow);
 }
 
 neon-button{
-	font-size: 4rem;
+	font-size: 3rem;
 	text-decoration: none;
-	border: .1em solid var(--clr-neon);
-	color: var(--clr-neon);
+	border: .1em solid var(--yellow);
+	color: var(--yellow);
 	padding: .25em;
 	border-radius: .2em;
 
-	text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.333), 0 0 1em var(--clr-neon);
+	text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.333), 0 0 1em var(--yellow);
 
 }
 
