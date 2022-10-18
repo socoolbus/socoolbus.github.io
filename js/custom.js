@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
  /* Home Slideshow Vegas
-  -----------------------------------------------*/
+  -----------------------------------------------
   $(function() {
     $('body').vegas({
         slides: [
@@ -42,6 +42,8 @@ $(document).ready(function() {
         animation: ['kenburns']
     });
   });
+  */
+
 
 
   /* Team carousel
@@ -49,12 +51,12 @@ $(document).ready(function() {
   $(document).ready(function() {
       $("#team-carousel").owlCarousel({
           items : 5,
-          itemsDesktop : [1199,3],
-          itemsDesktopSmall : [979,3],
+          itemsDesktop : [1199,5],
+          itemsDesktopSmall : [979,5],
           slideSpeed: 300,
-          itemsDesktop : [1199,2],
+          itemsDesktop : [1199,5],
           itemsTablet: [768,1],
-          itemsTabletSmall: [985,2],
+          itemsTabletSmall: [985,5],
           itemsMobile : [479,1],
       });
     });
