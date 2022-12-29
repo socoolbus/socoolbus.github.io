@@ -27,7 +27,7 @@ html {
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typography              
 -----------------------------------------*/
 
 h1,h2,h3,h4 {
@@ -136,14 +136,9 @@ a:hover, a:active, a:focus {
 }
 
 #about,
-#gallery,
-#contact {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  position: relative;
-}
+#reports,
 
-#gallery,
+
 #contact, footer {
   text-align: center;
 }
@@ -458,11 +453,12 @@ a:hover, a:active, a:focus {
     Reports section              
 -----------------------------------------*/
 
-#gallery {
+#reports {
   background: #ffffff;
+  padding: 80px 0;
 }
 
-#gallery .gallery-thumb {
+#reports .gallery-thumb {
   background-color: #ffffff;
   box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
   cursor: pointer;
@@ -473,59 +469,16 @@ a:hover, a:active, a:focus {
   transition: all 0.4s ease-in-out;
 }
 
-#gallery .gallery-thumb:hover {
+#reports .gallery-thumb:hover {
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
   top: -5px;
 }
 
-#gallery .gallery-thumb img {
+#reports .gallery-thumb img {
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
   width: 100px;
 }
-
-/*---------------------------------------
-    Contact section              
------------------------------------------*/
-
-#contact, footer {
-  background: #304352;
-  color: #ffffff;
-}
-
-#contact .form-control {
-  background: transparent;
-  box-shadow: none;
-  border: 1px solid #f9f9f9;
-  color: #ccc;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 14px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:focus {
-  border-color: #e44c65;
-  color: #ffffff;
-}
-
-#contact input {
-  height: 55px;
-}
-
-#contact input[type="submit"] {
-  background: #e44c65;
-  border:none;
-  color: #ffffff;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-#contact input[type="submit"]:hover {
-  background: #222;
-  color: #ffffff;
-}
-
 
 
 /*---------------------------------------
@@ -533,7 +486,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-  padding-bottom: 80px;
+  background-color: #304352;
+  padding: 80px;
 }
 
 
